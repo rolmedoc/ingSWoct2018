@@ -13,7 +13,7 @@ public class Secuenciales2_13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int dia, mes, año, suerte, suma, cifra1, cifra2, cifra3, cifra4;
-        System.out.println("Introduzca fecha de nacimiento");
+        System.out.println("cuando nacio");
         System.out.print("día: ");
         dia = sc.nextInt();
         System.out.print("mes: ");
@@ -27,6 +27,7 @@ public class Secuenciales2_13 {
         cifra4 = suma%10;        //obtiene la última cifra
         suerte = cifra1 + cifra2 + cifra3 + cifra4;
         System.out.println("prueba tu suerte con este numero : " + suerte);
+        System.out.println("suerte para mañana " + suerte);
     }
 }
 
