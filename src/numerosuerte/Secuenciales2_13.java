@@ -27,7 +27,7 @@ public class Secuenciales2_13 {
         cifra4 = suma%10;        //obtiene la última cifra
         suerte = cifra1 + cifra2 + cifra3 + cifra4;
         System.out.println("prueba tu suerte con este numero : " + suerte);
-        System.out.println("suerte para mañana " + suerte);
+        System.out.println(":)suerte para mañana :)" );
     }
 }
 
